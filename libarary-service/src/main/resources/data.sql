@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS book;
+CREATE TABLE book AS SELECT * FROM CSVREAD('classpath:book.csv');
